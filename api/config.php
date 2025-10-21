@@ -22,9 +22,9 @@ include_once __DIR__ . '/_helper.php';
 
 // Konfigurasi koneksi database
 $host = 'localhost';
-$user = 'sooa7192_Aldo';
-$pass = 'R4h4siaa1234';
-$db = 'sooa7192_SIA'; // Live: case-sensitive di Linux
+$user = 'insert your user';
+$pass = 'insert your pass';
+$db = 'insert your database'; // Live: case-sensitive di Linux
 
 // Membuat koneksi MySQLi
 $koneksi = new mysqli($host, $user, $pass, $db);
@@ -38,4 +38,5 @@ if ($koneksi->connect_error) {
 }
 
 // Set charset UTF-8 (utf8mb4 untuk dukungan penuh karakter Unicode)
+
 $koneksi->set_charset('utf8mb4');
