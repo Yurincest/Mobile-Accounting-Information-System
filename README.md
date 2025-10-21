@@ -46,11 +46,6 @@ Aplikasi Flutter untuk kebutuhan kasir/akuntansi sederhana: barang, customer, me
 <p>
   <img src="logo/Logo%20%2B%20Title.png" alt="Logo + Title" width="480" />
 </p>
-<p>
-  <img src="web/icons/Icon-512.png" alt="App Icon" width="120" />
-</p>
-
-> Tip: Tambahkan tangkapan layar Dashboard/Barang/Nota ke folder `docs/screenshots/` atau `logo/` lalu sisipkan di sini agar README makin hidup.
 
 ## Build & Test
 - Build APK: `flutter build apk --release`
